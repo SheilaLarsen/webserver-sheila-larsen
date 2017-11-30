@@ -28,9 +28,9 @@ yum install nano
 
 10. Installer MySQL
 ```
-yum install mysql-server
+> yum install mysql-server
 ```
 11. Start/stop/restart
 ```
-service mysqld start/stop/restart
+> service mysqld start/stop/restart
 ```
