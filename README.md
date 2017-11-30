@@ -22,3 +22,15 @@
 7. Sæt password ind igen.
 8. Lav nyt password.
 9. Installer **_NANO_**
+```
+yum install nano
+```
+
+10. Installer MySQL
+```
+yum install mysql-server
+```
+11. Start/stop/restart
+```
+service mysqld start/stop/restart
+```
