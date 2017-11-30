@@ -1,3 +1,3 @@
 # WEBSERVER/LINUX
 
-Gå ind på digitalocean.com
+1. **Gå ind på digitalocean.com**
