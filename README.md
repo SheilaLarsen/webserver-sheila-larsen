@@ -3,7 +3,7 @@
 
 
 
-### **DIGITALOCEAN.COM**
+### **D I G I T A L O C E A N**
 1. Klik på **_CREATE_**
 2. Klik på **_DROPLETS - Create Cloud Servers_**
 3. Klik på **_CentOS_ - version 6.9x32**
@@ -12,7 +12,7 @@
 6. Kald din Droplet noget kort og præcist nederst på siden under **_Choose a hostname_**
 
 
-### **PUTTY**
+### **P U T T Y**
 1. Åben **_PUTTY_**
 2. Indsæt IP-adresse (findes på mail/under Droplets på DigitalOcean) 
 3. Giv den et navn
@@ -39,4 +39,5 @@
 
 
 Disallow root login remotely - NO!
+
 Remove test database - YES!
