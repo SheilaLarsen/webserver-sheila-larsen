@@ -3,4 +3,5 @@
 
 
 
-### **GÅ IND PÅ DIGITALOCEAN.COM**
+### **DIGITALOCEAN.COM**
+1. Klik på _CREATE_
