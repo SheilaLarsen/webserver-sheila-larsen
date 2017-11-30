@@ -41,3 +41,7 @@
 Disallow root login remotely - NO!
 
 Remove test database - YES!
+
+
+
+Skriv "cat ~/.ssh/id_rsa.pub" i stedet for "nano ~/.ssh/id_rsa.pub"
