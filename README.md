@@ -24,13 +24,13 @@
 
 --- 
 
-### 1. Installer **_NANO_**
+### 1. I N S T A L L E R **_NANO_**
 
 > yum install nano
 
 ---
 
-### 2. Installer MySQL
+### 2. I N S T A L L E R MySQL
 
 > yum install mysql-server
 
@@ -44,7 +44,7 @@
 
 ---
 
-### 3. Installer Node.js
+### 3. I N S T A L L E R Node.js
 
 > yum install epel-release
 
@@ -65,7 +65,7 @@
 
 ---
 
-### 4. Installer PM2
+### 4. I N S T A L L E R PM2
 _PM2 er en process manager til Node.js applikationer_
 
 > npm install -g pm2
@@ -76,7 +76,7 @@ _PM2 er en process manager til Node.js applikationer_
 
 ---
 
-### 5. Installer Git
+### 5. I N S T A L L E R Git
 
 > yum install git
 
@@ -93,7 +93,7 @@ _PM2 er en process manager til Node.js applikationer_
 
 ---
 
-### 6. Opret et nøglesæt til at logge ind på GitHub
+### 6. O P R E T  E T  N Ø G L E S Æ T  T I L  A T  L O G G E  I N D  P Å  G I T H U B
 _Opret nøglesæt_
 
 > ssh-keygen -t rsa
