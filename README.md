@@ -180,7 +180,7 @@ _Tryk ENTER_
 
 ---
 
-## **E K S P O R T E R/I M P O R T E R  D A T A B A S E**
+## **W O R K B E N C H** (eksporter/importer database)
 
 1. Åben MySQL Workbench/Start Xamp
 2. Klik på localhost-boksen ("continue anyway")
