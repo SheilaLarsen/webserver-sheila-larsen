@@ -24,7 +24,6 @@
 
 (Hvis jeg skal ind på en allerede eksisterende droplet - skal jeg huske at tænde den)
 
---- 
 
 ### 1. Installer **_NANO_**
 ```
