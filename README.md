@@ -156,9 +156,9 @@ Skriv "cat ~/.ssh/id_rsa.pub" i stedet for "nano ~/.ssh/id_rsa.pub"
 ```
 service mysqld start
 ``` 
-Tryk ENTER
+_Tryk ENTER_
 
-Skriv password til root-brugeren
+_Skriv password til root-brugeren_
 
 **Giv rootbrugeren lov til at logge ind fra andre adresser end localhost**
 
@@ -171,17 +171,17 @@ får alle privilegier på alle databaser/tabeller på MySQL serveren)
 
 TO 'root'@'%';
 ```
-Tryk ENTER
+_Tryk ENTER_
 
 **Sæt et password for "root-brugeren" når der logges på fra andre adresser end localhost**
 ```
 SET PASSWORD FOR 'root'@'%' = PASSWORD ('Aliehs1011');
 ```
-Tryk ENTER
+_Tryk ENTER_
 
 ---
 
-### Eksporter/importer database
+## **Eksporter/importer database**
 
 1. Åben MySQL Workbench/Start Xamp
 2. Klik på localhost-boksen ("continue anyway")
