@@ -24,107 +24,122 @@
 
 --- 
 
-### 1. I N S T A L L E R **_NANO_**
-
-> yum install nano
-
+### 1. Installer **_NANO_**
+```
+ yum install nano
+```
 ---
 
-### 2. I N S T A L L E R MySQL
-
-> yum install mysql-server
-
+### 2. Installer MySQL
+```
+yum install mysql-server
+```
 **Start/stop/restart**
-
-> service mysqld start/stop/restart
-
+```
+service mysqld start/stop/restart
+```
 **Konfigurer MySQL**
-
-> sudo /usr/bin/mysql_secure_installation
-
+```
+sudo /usr/bin/mysql_secure_installation
+```
 ---
 
-### 3. I N S T A L L E R Node.js
-
-> yum install epel-release
-
-> yum install nodejs
-
-> yum install npm
-
-> npm install -g n
-
+### 3. Installer Node.js
+```
+yum install epel-release
+```
+```
+yum install nodejs
+```
+```
+yum install npm
+```
+```
+npm install -g n
+```
 --- 
 
 **Opdater nodejs**
-
-> n lts
-> n
-
+```
+n lts
+```
+```
+n
+```
 **(Genstart linux)**
 
 ---
 
-### 4. I N S T A L L E R PM2
+### 4. Installer PM2
 _PM2 er en process manager til Node.js applikationer_
-
-> npm install -g pm2
-
+```
+npm install -g pm2
+```
 **Kør PM2 ved startup**
-
-> pm2 startup
-
+```
+pm2 startup
+```
 ---
 
-### 5. I N S T A L L E R Git
-
-> yum install git
-
+### 5. Installer Git
+```
+yum install git
+```
 ---
 
 **Konfiguration**
 
-> git config --global user.name "Dit navn"
-> git config --global user.email "din@email.dk"
-
+```
+git config --global user.name "Dit navn"
+```
+```
+git config --global user.email "din@email.dk"
+```
 **Tjek konfigurationen**
 
-> nano ~/.gitconfig
-
+```
+nano ~/.gitconfig
+```
 ---
 
 ### 6. OPRET ET NØGLESÆT TIL AT LOGGE IND PÅ GITHUB
 _Opret nøglesæt_
 
-> ssh-keygen -t rsa
-
+```
+ssh-keygen -t rsa
+```
 
 **Åbn den offentlige nøgle**
 
-> nano ~/.ssh/id_rsa.pub
-
+```
+nano ~/.ssh/id_rsa.pub
+```
 Kopier indholdet af den offentlige nøgle til GitHub -> **Settings** -> **SSH** and **GPG keys** -> **New SSH key**
 
 ---
 
 ### 7. Opret en mappe til applikation
 
-> mkdir ~/www
-
+```
+mkdir ~/www
+```
 **Naviger ind i mappen**
 
-> cd ~/www
-
+```
+cd ~/www
+```
 ---
 
 ### 8. Klon repository fra GitHub
 
-> git clone git@github.com:brugernavn/repository
-
+```
+git clone git@github.com:brugernavn/repository
+```
 **Når jeg har en opdatering, skal jeg lave et pull**
 
-> git pull git@github.com:brugernavn/repository
-
+```
+git pull git@github.com:brugernavn/repository
+```
 ---
 
 ---
