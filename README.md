@@ -160,7 +160,7 @@ _Tryk ENTER_
 
 _Skriv password til root-brugeren_
 
-**Giv rootbrugeren lov til at logge ind fra andre adresser end localhost**
+### 1. Giv rootbrugeren lov til at logge ind fra andre adresser end localhost
 
 ```
 GRANT ALL ON *.* 
@@ -173,7 +173,7 @@ TO 'root'@'%';
 ```
 _Tryk ENTER_
 
-**Sæt et password for "root-brugeren" når der logges på fra andre adresser end localhost**
+### 2. Sæt et password for "root-brugeren" når der logges på fra andre adresser end localhost
 ```
 SET PASSWORD FOR 'root'@'%' = PASSWORD ('Aliehs1011');
 ```
@@ -181,7 +181,7 @@ _Tryk ENTER_
 
 ---
 
-## **Eksporter/importer database**
+## **E K S P O R T E R/I M P O R T E R  D A T A B A S E**
 
 1. Åben MySQL Workbench/Start Xamp
 2. Klik på localhost-boksen ("continue anyway")
