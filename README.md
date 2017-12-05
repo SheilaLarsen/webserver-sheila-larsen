@@ -164,7 +164,9 @@ Skriv password til root-brugeren
 ```
 GRANT ALL ON *.* 
 
-(betyder alle databaser/tabeller - dvs., brugeren jeg navngiver får alle privilegier på alle databaser/tabeller på MySQL serveren) 
+(betyder alle databaser/tabeller - dvs., brugeren jeg navngiver 
+
+får alle privilegier på alle databaser/tabeller på MySQL serveren) 
 
 TO 'root'@'%';
 ```
