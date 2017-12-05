@@ -166,7 +166,9 @@ Skriv password til root-brugeren
 **Giv rootbrugeren lov til at logge ind fra andre adresser end localhost**
 
 ```
-GRANT ALL ON *.* (betyder alle databaser/tabeller - dvs., brugeren jeg navngiver får alle privilegier på alle databaser/tabeller på MySQL serveren) TO 'root'@'%';
+GRANT ALL ON *.* (betyder alle databaser/tabeller - 
+
+dvs., brugeren jeg navngiver får alle privilegier på alle databaser/tabeller på MySQL serveren) TO 'root'@'%';
 ```
 Tryk ENTER
 
