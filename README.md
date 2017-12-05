@@ -93,7 +93,7 @@ _PM2 er en process manager til Node.js applikationer_
 
 ---
 
-### 6. O P R E T  E T  N Ø G L E S Æ T  T I L  A T  L O G G E  I N D  P Å  G I T H U B
+### 6. OPRET ET NØGLESÆT TIL AT LOGGE IND PÅ GITHUB
 _Opret nøglesæt_
 
 > ssh-keygen -t rsa
