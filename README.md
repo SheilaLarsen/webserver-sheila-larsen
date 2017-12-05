@@ -24,12 +24,13 @@
 
 --- 
 
-#### 1. Installer **_NANO_**
+### 1. Installer **_NANO_**
 
 > yum install nano
 
+---
 
-#### 2. Installer MySQL
+### 2. Installer MySQL
 
 > yum install mysql-server
 
@@ -41,8 +42,9 @@
 
 > sudo /usr/bin/mysql_secure_installation
 
+---
 
-#### 3. Installer Node.js
+### 3. Installer Node.js
 
 > yum install epel-release
 
@@ -52,14 +54,18 @@
 
 > npm install -g n
 
+--- 
+
 **Opdater nodejs**
 
-n lts
-n
+> n lts
+> n
 
 **(Genstart linux)**
 
-#### 4. Installer PM2
+---
+
+### 4. Installer PM2
 _PM2 er en process manager til Node.js applikationer_
 
 > npm install -g pm2
@@ -68,22 +74,26 @@ _PM2 er en process manager til Node.js applikationer_
 
 > pm2 startup
 
-#### 5. Installer Git
+---
+
+### 5. Installer Git
 
 > yum install git
 
+---
 
 **Konfiguration**
 
 > git config --global user.name "Dit navn"
 > git config --global user.email "din@email.dk"
 
-
 **Tjek konfigurationen**
 
 > nano ~/.gitconfig
 
-#### 6. Opret et nøglesæt til at logge ind på GitHub
+---
+
+### 6. Opret et nøglesæt til at logge ind på GitHub
 _Opret nøglesæt_
 
 > ssh-keygen -t rsa
@@ -95,7 +105,9 @@ _Opret nøglesæt_
 
 Kopier indholdet af den offentlige nøgle til GitHub -> **Settings** -> **SSH** and **GPG keys** -> **New SSH key**
 
-#### 7. Opret en mappe til applikation
+---
+
+### 7. Opret en mappe til applikation
 
 > mkdir ~/www
 
@@ -103,11 +115,11 @@ Kopier indholdet af den offentlige nøgle til GitHub -> **Settings** -> **SSH** 
 
 > cd ~/www
 
+---
 
-## 8. Klon repository fra GitHub
+### 8. Klon repository fra GitHub
 
 > git clone git@github.com:brugernavn/repository
-
 
 **Når jeg har en opdatering, skal jeg lave et pull**
 
@@ -115,7 +127,9 @@ Kopier indholdet af den offentlige nøgle til GitHub -> **Settings** -> **SSH** 
 
 ---
 
-#### **YES or NO**
+---
+
+### **YES or NO**
 Disallow root login remotely - NO!
 
 Remove test database - YES!
