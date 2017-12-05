@@ -154,8 +154,50 @@ Remove test database - YES!
 Skriv "cat ~/.ssh/id_rsa.pub" i stedet for "nano ~/.ssh/id_rsa.pub"
 
 
+### Log på MySQL fra Linux-serveren (Gøres for hver nye droplet)
 
+```
+service mysqld start
+``` 
+Tryk ENTER
 
+Skriv password til root-brugeren
+
+**Giv rootbrugeren lov til at logge ind fra andre adresser end localhost**
+
+```
+GRANT ALL ON *.* (betyder alle databaser/tabeller - dvs., brugeren jeg navngiver får alle privilegier på alle databaser/tabeller på MySQL serveren) TO 'root'@'%';
+```
+Tryk ENTER
+
+**Sæt et password for "root-brugeren" når der logges på fra andre adresser end localhost**
+```
+SET PASSWORD FOR 'root'@'%' = PASSWORD ('Aliehs1011');
+```
+Tryk ENTER
+
+---
+
+### Eksporter/importer database
+
+1. Åben MySQL Workbench/Start Xamp
+2. Klik på localhost-boksen ("continue anyway")
+3. Klik på **_server_** -> **_Data Export_** -> Vælg database -> Marker **_Export to Dump Project Folder_** -> Klik på **_Start Export_** ("continue anyway" - skriv evt. password)
+
+4. Luk vindue
+(5. Åben stifinder -> Find mappen med database-navn \Documents\dumps\Dump...)
+6. Gå tilbage til Workbench
+**For at importere det over på Linux bruges MySql Workbench til at forbinde til MySql serveren på Linux maskinen**
+7. Tryk på plus
+8. Sæt IP fra server ind under **_Hostname:_**
+9. Giv den et navn - Klik OK
+10. Åben forbindelsen (skriv password)
+11. Opret den database der skal importeres data til 
+12. Klik på **_Create a new schema in the connected server_**
+13. Skriv navnet på databasen -> Klik på **_Apply_** og **_Finish_**
+14. Gå op i **__Server__**
+15. Find mappen i **_dumps_** - OK
+16. **_Start import_** - Opdater.
 
 
 
