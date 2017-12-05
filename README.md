@@ -59,7 +59,6 @@ yum install npm
 ```
 npm install -g n
 ```
---- 
 
 **Opdater nodejs**
 ```
@@ -87,7 +86,6 @@ pm2 startup
 ```
 yum install git
 ```
----
 
 **Konfiguration**
 
@@ -142,8 +140,6 @@ git clone git@github.com:brugernavn/repository
 ```
 git pull git@github.com:brugernavn/repository
 ```
----
-
 ---
 
 ### **YES or NO**
