@@ -3,7 +3,7 @@
 
 
 
-### **D I G I T A L O C E A N**
+## **D I G I T A L O C E A N**
 1. Klik på **_CREATE_**
 2. Klik på **_DROPLETS - Create Cloud Servers_**
 3. Klik på **_CentOS_ - version 6.9x32**
@@ -12,7 +12,7 @@
 6. Kald din Droplet noget kort og præcist nederst på siden under **_Choose a hostname_**
 
 
-### **P U T T Y**
+## **P U T T Y**
 1. Åben **_PUTTY_**
 2. Indsæt IP-adresse (findes på mail/under Droplets på DigitalOcean) 
 3. Giv den et navn
@@ -32,7 +32,7 @@
 ```
 ---
 
-### 2. Installer MySQL
+### 2. Installer **_MySQL_**
 ```
 yum install mysql-server
 ```
@@ -46,7 +46,7 @@ sudo /usr/bin/mysql_secure_installation
 ```
 ---
 
-### 3. Installer Node.js
+### 3. Installer **_Node.js_**
 ```
 yum install epel-release
 ```
@@ -71,7 +71,7 @@ n
 
 ---
 
-### 4. Installer PM2
+### 4. Installer **_PM2_**
 _PM2 er en process manager til Node.js applikationer_
 ```
 npm install -g pm2
@@ -82,7 +82,7 @@ pm2 startup
 ```
 ---
 
-### 5. Installer Git
+### 5. Installer **_Git_**
 ```
 yum install git
 ```
@@ -102,7 +102,7 @@ nano ~/.gitconfig
 ```
 ---
 
-### 6. OPRET ET NØGLESÆT TIL AT LOGGE IND PÅ GITHUB
+### 6. Oret et nøglesæt til at logge ind på Github
 _Opret nøglesæt_
 
 ```
@@ -142,15 +142,16 @@ git pull git@github.com:brugernavn/repository
 ```
 ---
 
-### **YES or NO**
+### 10. YES or NO
 Disallow root login remotely - NO!
 
 Remove test database - YES!
 
 Skriv "cat ~/.ssh/id_rsa.pub" i stedet for "nano ~/.ssh/id_rsa.pub"
 
+---
 
-### Log på MySQL fra Linux-serveren (Gøres for hver nye droplet)
+## **Log på MySQL fra Linux-serveren** (Gøres for hver nye droplet)
 
 ```
 service mysqld start
