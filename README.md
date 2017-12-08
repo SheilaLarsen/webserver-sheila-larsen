@@ -23,7 +23,9 @@
 8. Lav nyt password.
 
 (Hvis jeg skal ind på en allerede eksisterende droplet - skal jeg huske at tænde den)
+---
 
+--- 
 
 ### 1. Installer **_NANO_**
 ```
@@ -139,14 +141,27 @@ git clone git@github.com:brugernavn/repository
 ```
 git pull git@github.com:brugernavn/repository
 ```
+
+### 10. Installer node modules i rod-mappen
+
+```
+npm install
+```
+### 11. Opstart node
+
+```
+node app/app.js*
+```
 ---
 
-### 10. YES or NO
+### YES or NO
 Disallow root login remotely - NO!
 
 Remove test database - YES!
 
 Skriv "cat ~/.ssh/id_rsa.pub" i stedet for "nano ~/.ssh/id_rsa.pub"
+
+---
 
 ---
 
