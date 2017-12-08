@@ -22,7 +22,7 @@
 7. Sæt password ind igen.
 8. Lav nyt password.
 
-(Hvis jeg skal ind på en allerede eksisterende droplet - skal jeg huske at tænde den)
+##### (Hvis jeg skal ind på en allerede eksisterende droplet - skal jeg huske at tænde den)
 ---
 
 --- 
