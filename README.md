@@ -215,7 +215,7 @@ _Tryk ENTER_
 14. Gå op i **__Server__**
 15. Find mappen i **_dumps_** - OK
 16. **_Start import_** - Opdater.
-
+17. Siden _burde_ nu kunne ses ved at indtaste **_ip:port_** i browseren
 
 
 
