@@ -109,11 +109,16 @@ _Opret nøglesæt_
 ```
 ssh-keygen -t rsa
 ```
+Tryk _ENTER_
+Tryk _ENTER_
+Tryk _ENTER_
+
+
 
 **Åbn den offentlige nøgle**
 
 ```
-nano ~/.ssh/id_rsa.pub
+"**cat ~/.ssh/id_rsa.pub" MELLEMRUM**
 ```
 Kopier indholdet af den offentlige nøgle til GitHub -> **Settings** -> **SSH** and **GPG keys** -> **New SSH key**
 
@@ -136,13 +141,17 @@ cd ~/www
 ```
 git clone git@github.com:brugernavn/repository
 ```
-**Når jeg har en opdatering, skal jeg lave et pull**
+**(Når jeg har en opdatering, skal jeg lave et pull**
 
 ```
-git pull git@github.com:brugernavn/repository
+git pull git@github.com:brugernavn/repository master)
 ```
 
 ### 10. Installer node modules i rod-mappen
+
+cd (rodmappe _ex._ "express")
+
+ls - l
 
 ```
 npm install
@@ -159,7 +168,7 @@ Disallow root login remotely - NO!
 
 Remove test database - YES!
 
-Skriv "cat ~/.ssh/id_rsa.pub" i stedet for "nano ~/.ssh/id_rsa.pub"
+
 
 ---
 
